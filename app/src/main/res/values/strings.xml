@@ -4,4 +4,13 @@
     <string name="crear_cuenta">Crear una cuenta</string>
     <string name="tienes_cuenta">¿Ya tienes una cuenta?</string>
     <string name="inciar_sesion">Iniciar Sesión</string>
+    <!--Inicio de Sesión-->
+    <string name="usuario">Usuario</string>
+    <string name="usuario_hint">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="contrasena_hint">Escriba contraseña</string>
+
+    <string name="informacion">Información</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="ayuda">Ayuda</string>
 </resources>
