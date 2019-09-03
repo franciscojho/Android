@@ -9,4 +9,6 @@
         android:title="@string/acerca_de"/>
     <item android:id="@+id/nav_Informacion"
         android:title="@string/informacion"/>
+    <item android:id="@+id/nav_Calculadora"
+        android:title="@string/calculadora"/>
 </menu>

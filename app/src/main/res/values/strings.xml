@@ -13,4 +13,9 @@
     <string name="informacion">Información</string>
     <string name="acerca_de">Acerca de</string>
     <string name="ayuda">Ayuda</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="direccion">Av. La Marina 566</string>
+    <string name="telefono">998-999-99</string>
+    <string name="web">http://wwww.interconnecta.com</string>
+    <string name="email">francisco@hotmail.com</string>
 </resources>

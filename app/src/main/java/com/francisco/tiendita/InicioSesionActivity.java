@@ -36,6 +36,8 @@ public class InicioSesionActivity extends AppCompatActivity {
             case R.id.nav_Informacion:
                 mostrarInformacion();
                 return true;
+            case R.id.nav_Calculadora:
+                mostrarCalculadora();
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -51,5 +53,12 @@ public class InicioSesionActivity extends AppCompatActivity {
 
     private void mostrarAyuda() {
         startActivity(new Intent(this, AyudaActivity.class));
+    }
+
+    private void mostrarCalculadora(){
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_APP_CALCULATOR);
+        startActivity(intent);
     }
 }
