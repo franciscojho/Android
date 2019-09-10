@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EscritorioActivity">
+    tools:context=".EscritorioActivity" >
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -20,7 +20,18 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <!--
     <include layout="@layout/content_escritorio" />
+    -->
+
+    <LinearLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/llcontenedorEscritorio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

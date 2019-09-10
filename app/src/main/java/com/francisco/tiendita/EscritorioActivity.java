@@ -88,8 +88,10 @@ public class EscritorioActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+            mostrarHistoria();
 
         } else if (id == R.id.nav_slideshow) {
+            mostrarVision();
 
         } else if (id == R.id.nav_tools) {
 
@@ -102,5 +104,17 @@ public class EscritorioActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void mostrarVision() {
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.llcontenedorEscritorio, new VisionFragment())
+                .commit();
+    }
+
+    private void mostrarHistoria() {
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.llcontenedorEscritorio, new HistoriaFragment())
+                .commit();
     }
 }
