@@ -15,7 +15,31 @@
     <string name="ayuda">Ayuda</string>
     <string name="calculadora">Calculadora</string>
     <string name="direccion">Av. La Marina 566</string>
-    <string name="telefono">998-999-99</string>
+    <string name="telefono">998-999-999</string>
     <string name="web">http://wwww.interconnecta.com</string>
     <string name="email">francisco@hotmail.com</string>
+    <string name="mision">Misión</string>
+    <string name="vision">Visión</string>
+    <string name="historia">Historia</string>
+
+    <string name="mision_contenido">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat velit non nibh cursus ornare. Sed vel metus ac mauris pharetra varius. Phasellus ut turpis augue. Nunc hendrerit purus eget ante elementum accumsan. Maecenas gravida pharetra placerat. \n\nPhasellus aliquet magna eu elit aliquam, ut fermentum ante tempus. Curabitur vel congue ligula. Suspendisse faucibus mi in pretium auctor. Cras varius elit in metus mollis, et venenatis arcu tincidunt. Curabitur aliquam et eros ac commodo. Integer arcu nisl, sollicitudin non bibendum vitae, interdum a sem. Phasellus sed faucibus elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</string>
+    <string name="vision_contenido">Cras id sapien vel purus mattis vestibulum vulputate vel sapien. Aenean vulputate quis magna quis ultrices. Aenean vitae massa non leo posuere vulputate. Vestibulum sed lacus diam. Curabitur id sem placerat, scelerisque velit ac, commodo metus. \n\nFusce porttitor justo eu enim ullamcorper egestas. Fusce vel mi cursus, efficitur mauris nec, lacinia ex. Nunc sit amet sapien in lectus accumsan luctus id vitae odio. Ut in ultrices elit. Praesent sagittis elit non auctor mollis. \n\nPellentesque faucibus felis sed augue efficitur porta. Mauris facilisis at nunc ut malesuada. Cras eget ex convallis, pretium dui id, suscipit ex. Donec iaculis, metus at suscipit hendrerit, lacus est hendrerit sem, ac gravida arcu ante sit amet ipsum. Quisque vitae ex viverra, ornare augue et, eleifend velit. Nunc gravida vel elit sit amet lacinia. Sed pellentesque justo in turpis cursus porttitor vitae vel libero. Nunc dignissim, massa non aliquam efficitur, est dolor congue purus, vel convallis magna risus a ex. Proin consectetur, ante id fringilla scelerisque, est magna tempor diam, eu tempus lorem urna non nunc. Fusce consequat magna eu vestibulum interdum. Suspendisse pellentesque volutpat condimentum. Mauris cursus, velit egestas tristique consectetur, risus purus finibus nunc, vel varius lorem tortor a neque. Integer imperdiet, sapien vitae dapibus elementum, quam justo pulvinar tellus, in ornare nunc purus eu augue.</string>
+    <string name="historia_contenido">Praesent elementum mollis erat, ut consectetur augue. Suspendisse elementum magna vel pulvinar pretium. Fusce nunc tortor, maximus eu sem in, facilisis malesuada sem. Maecenas nec sodales sapien, ac aliquam tellus. Curabitur blandit tempor sagittis. Suspendisse ultrices et lorem id mollis. \n\nVestibulum eros urna, consectetur id condimentum ac, condimentum in nunc. Vivamus interdum lectus quis lacus fermentum imperdiet. Nullam congue feugiat tristique. Nunc a sapien quis ante accumsan porttitor. Phasellus laoreet sodales neque ut commodo. Donec feugiat, ex vel blandit dapibus, enim odio pharetra felis, sed consequat felis elit a orci. Etiam ut tempus diam, eget vulputate eros. Vestibulum risus tortor, vestibulum non sapien eget, ullamcorper posuere felis. Aenean ac justo at nisi rhoncus consequat gravida a ante.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_escritorio">EscritorioActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
 </resources>

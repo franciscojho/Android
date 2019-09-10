@@ -8,13 +8,21 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
-public class InicioSesionActivity extends AppCompatActivity {
+public class InicioSesionActivity extends AppCompatActivity implements View.OnClickListener {
+
+    Button mbtnIniciarSesion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio_sesion);
+
+        mbtnIniciarSesion = findViewById(R.id.btnIniciarSesion);
+        mbtnIniciarSesion.setOnClickListener(this);
+
     }
 
     @Override
@@ -60,5 +68,18 @@ public class InicioSesionActivity extends AppCompatActivity {
         intent.setAction(Intent.ACTION_MAIN);
         intent.addCategory(Intent.CATEGORY_APP_CALCULATOR);
         startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.btnIniciarSesion:
+                mostrarEscritorio();
+                break;
+        }
+    }
+
+    private void mostrarEscritorio() {
+        startActivity(new Intent(this, EscritorioActivity.class));
     }
 }
